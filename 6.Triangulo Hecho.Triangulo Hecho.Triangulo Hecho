@@ -1,0 +1,32 @@
+Algoritmo Triangulo
+	//Actividad: Escribe un programa que calcule el área de un triángulo dados su
+	//base y su altura. (Datos ingresados por el usuario)
+	
+	Definir num1, num2 Como Real
+	Escribir "Escriba la base del Triangulo"
+	Leer num1
+	
+	Mientras num1 < 0 Hacer
+		
+		Escribir "Escriba un número que no sea menor que cero en base a la base del Triangulo"
+		Leer num1
+		
+	Fin Mientras
+	
+	Escribir "Escriba la Altura del Triangulo"
+	Leer num2
+	
+	Mientras num2 < 0 Hacer
+		
+		Escribir "Escriba un número que no sea menor que cero en base a la altura del Triangulo"
+		Leer num2
+		
+	Fin Mientras
+	
+	
+	
+	
+	nro = num1 * num2 
+	resultado = nro / 2
+	Escribir "El resultado (El area del Triangulo) es " resultado
+FinAlgoritmo
