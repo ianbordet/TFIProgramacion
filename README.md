@@ -1,6 +1,8 @@
 # TFIProgramacion
 Trabajo Práctico Integrador
 
+Perfil de programación: Flexible
+
 Integrantes:
 
 Pablo Bernardo Angel Ferreira
