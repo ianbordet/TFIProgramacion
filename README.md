@@ -1,6 +1,4 @@
-# TFIProgramacion
-
-## Trabajo Integrador Final
+# Trabajo Integrador Final
 
 ## Integrantes del equipo:
 - Pablo Bernardo Angel Ferreira
