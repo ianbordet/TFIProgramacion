@@ -1,7 +1,7 @@
 # TFIProgramacion
 Trabajo Práctico Integrador
 
-Perfil de programación: Flexible
+Perfil de programación PseInt: Flexible
 
 Integrantes:
 
