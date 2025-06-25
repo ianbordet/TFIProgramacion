@@ -1,4 +1,4 @@
-Algoritmo CalculadoraPrueba2
+Algoritmo Calculadora
 	Definir num1, num2, Suma, Resta, Producto, Division Como Real
 	Definir Calculo Como Caracter
 	
