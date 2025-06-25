@@ -6,19 +6,19 @@ Algoritmo CalcularPromedio
 	aux=0
 	num=0
 	promedio=0
-	//Se repite el bucle hasta que se ingese un número negativo
+	//Se repite el bucle hasta que se ingese un nÃºmero negativo
 	//se lee un auxiliar, se va sumando a la variable num y, mientras se aumenta el contador
 	Repetir 
-			Escribir "Ingrese un número"
+			Escribir "Ingrese un nÃºmero"
 			Leer aux
 			num = num + aux
 	i=i+1
 	Hasta Que aux < 0
-	//Se resta el número negativo en la suma anterior y en el contador tambien
+	//Se resta el nÃºmero negativo en la suma anterior y en el contador tambien
 	num = num - aux
 	i=i-1
 	//Se le asigna a la variable total el valor de num, luego se realiza el promedio dividiendo el valor por
-	//La cantidad de números ingresados por el contador (total/cant_num_total) 
+	//La cantidad de nÃºmeros ingresados por el contador (total/cant_num_total) 
 	total = num
 	promedio = total/i
 	
