@@ -1,53 +1,43 @@
-Algoritmo CalculadoraPrueba2
-	Definir num1, num2, Suma, Resta, Producto, Division Como Real
-	Definir Calculo Como Caracter
+Proceso Calculadora
 	
-	//Actividad Calculadora
-	//Este ejercicio debe solicitar dos números y la operación que desea realizar (suma, resta, multiplicación o división). 
-	//Luego, calculará y mostrará el resultado correspondiente según la operación seleccionada.
+    Definir numero1, numero2, resultado Como Real
+    Definir Calculo Como Entero
 	
-	Escribir "Escribe un número para Calcular"
-	Leer num1
+    // Aca se pedirian los dos numeros solicitados
+    Escribir "Primer número:"
+    Leer numero1
 	
-	//Se pide al usuario ingresar un número para calcular y escribe el número que se quiere en la variable num1
-	Escribir "Escribe otro número para Calcular" 
-	Leer num2
-	//Lo mismo pero en la variable num2
-	Escribir "Que cálculo desea realizar? (Escriba Sumar, Restar, Multiplicar o Dividir)"
-	Leer Calculo
-	//Luego se pide que tipo de cálculo pedido por la actividad realizar y, se guarda en la variable Calculo
-	Si Calculo = "Sumar" Entonces
-		Suma=num1 + num2
-		Escribir Suma
-	SiNo
-		
-		Si Calculo = "Restar" Entonces
-			Resta=num1 - num2
-			Escribir Resta
-		SiNo
-			
-			Si Calculo = "Multiplicar" Entonces
-				Producto=num1 * num2
-				Escribir Producto
-			SiNo
-				
-				Si Calculo = "Dividir" Entonces
-					Division=num1 / num2
-					Escribir Division
-				SiNo
-					Escribir "Operación Inválida"
-				Fin Si
-				
-			Fin Si
-			
-		Fin Si
-		
-	Fin Si
-	//Por medio de Ifs se ve si el valor ingresado en la variable "Calculo" corresponde a una de las operaciones
-	//En caso que no corresponda a ninguno de los 4 pedidos entonces mostrará un mensaje de operación invalida
+    Escribir "Segundo número:"
+    Leer numero2
+	
+    // Aca se monstraria el menú de los tipos de operaciones
+    Escribir "Elegir el tipo de operación:"
+    Escribir "1. Suma"
+    Escribir "2. Resta"
+    Escribir "3. Multiplicación"
+    Escribir "4. División"
+    Leer Calculo
+	
+    // Aca se ejecutaria el resultado segun la operacion elegida
+    Segun Calculo Hacer
+        1:
+            resultado <- numero1 + numero2
+            Escribir "El resultado de la suma es: ", resultado
+        2:
+            resultado <- numero1 - numero2
+            Escribir "El resultado de la resta es: ", resultado
+        3:
+            resultado <- numero1 * numero2
+            Escribir "El resultado de la multiplicación es: ", resultado
+        4:
+            Si numero2 <> 0 Entonces
+                resultado <- numero1 / numero2
+                Escribir "El resultado de la división es: ", resultado
+            SiNo
+                Escribir "No se puede dividir entre cero."
+            FinSi
+        De Otro Modo:
+            Escribir "Opción inválida. Por favor elija una opción del 1 al 4."
+    FinSegun
 
-//Escribir "El resultado de la suma es " Suma ", " Resta ", " Producto " y " Division
-
-
-
-FinAlgoritmo
+FinProceso
