@@ -2,10 +2,10 @@
 ## Trabajo Integrador Final
 
 ## Integrantes del equipo:
--Pablo Bernardo Angel Ferreira
--Nahuel Sebastian Anca
--Ian Bordet
--Farias Gonzalo
+- Pablo Bernardo Angel Ferreira
+- Nahuel Sebastian Anca
+- Ian Bordet
+- Farias Gonzalo
 
 ## Carrera
 Tecnicatura Universitaria en Telecomunicaciones
