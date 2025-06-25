@@ -1,11 +1,14 @@
 # TFIProgramacion
-Trabajo Práctico Integrador
+## Trabajo Integrador Final
 
-Perfil de programación PseInt: Flexible
+## Integrantes del equipo:
+-Pablo Bernardo Angel Ferreira
+-Nahuel Sebastian Anca
+-Ian Bordet
+-Farias Gonzalo
 
-Integrantes:
+## Carrera
+Tecnicatura Universitaria en Telecomunicaciones
 
-Pablo Bernardo Angel Ferreira
-Nahuel Sebastian Anca
-Ian Bordet
-Farias Gonzalo
+## Programa Utilizado
+PseInt (Perfil flexible)
