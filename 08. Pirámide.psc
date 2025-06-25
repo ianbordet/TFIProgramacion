@@ -17,7 +17,7 @@ Algoritmo Piramide
 		Fin Para
 		Escribir " "
 		//Luego de que cada linea sea escrita, se vuelve a comnenzar el primer para con los valores cambiados
-		//Así hasta que la base o última linea sea el número ingresado 
+		//AsÃ­ hasta que la base o Ãºltima linea sea el nÃºmero ingresado 
 	Fin Para
 
 FinAlgoritmo
