@@ -3,19 +3,19 @@ Algoritmo CalculadoraPrueba2
 	Definir Calculo Como Caracter
 	
 	//Actividad Calculadora
-	//Este ejercicio debe solicitar dos números y la operación que desea realizar (suma, resta, multiplicación o división). 
-	//Luego, calculará y mostrará el resultado correspondiente según la operación seleccionada.
+	//Este ejercicio debe solicitar dos nÃºmeros y la operaciÃ³n que desea realizar (suma, resta, multiplicaciÃ³n o divisiÃ³n). 
+	//Luego, calcularÃ¡ y mostrarÃ¡ el resultado correspondiente segÃºn la operaciÃ³n seleccionada.
 	
-	Escribir "Escribe un número para Calcular"
+	Escribir "Escribe un nÃºmero para Calcular"
 	Leer num1
 	
-	//Se pide al usuario ingresar un número para calcular y escribe el número que se quiere en la variable num1
-	Escribir "Escribe otro número para Calcular" 
+	//Se pide al usuario ingresar un nÃºmero para calcular y escribe el nÃºmero que se quiere en la variable num1
+	Escribir "Escribe otro nÃºmero para Calcular" 
 	Leer num2
 	//Lo mismo pero en la variable num2
-	Escribir "Que cálculo desea realizar? (Escriba Sumar, Restar, Multiplicar o Dividir)"
+	Escribir "Que cÃ¡lculo desea realizar? (Escriba Sumar, Restar, Multiplicar o Dividir)"
 	Leer Calculo
-	//Luego se pide que tipo de cálculo pedido por la actividad realizar y, se guarda en la variable Calculo
+	//Luego se pide que tipo de cÃ¡lculo pedido por la actividad realizar y, se guarda en la variable Calculo
 	Si Calculo = "Sumar" Entonces
 		Suma=num1 + num2
 		Escribir Suma
@@ -35,7 +35,7 @@ Algoritmo CalculadoraPrueba2
 					Division=num1 / num2
 					Escribir Division
 				SiNo
-					Escribir "Operación Inválida"
+					Escribir "OperaciÃ³n InvÃ¡lida"
 				Fin Si
 				
 			Fin Si
@@ -44,7 +44,7 @@ Algoritmo CalculadoraPrueba2
 		
 	Fin Si
 	//Por medio de Ifs se ve si el valor ingresado en la variable "Calculo" corresponde a una de las operaciones
-	//En caso que no corresponda a ninguno de los 4 pedidos entonces mostrará un mensaje de operación invalida
+	//En caso que no corresponda a ninguno de los 4 pedidos entonces mostrarÃ¡ un mensaje de operaciÃ³n invalida
 
 //Escribir "El resultado de la suma es " Suma ", " Resta ", " Producto " y " Division
 
