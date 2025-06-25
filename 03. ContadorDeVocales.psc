@@ -1,17 +1,19 @@
 Algoritmo ContadorDePalabras
+	///Definimos variables y las inicializamos
 	Definir Contador, i, Vocales Como Real
 	Definir Frase Como Cadena
-	// Mientras  Frase = Caracter
-	// FinMientras
+	i=1
+	Vocales=0
+	///Se pide que se ingrese la oracion y se lee la variable
 	Escribir 'Ingrese una palabra o frase'
 	Leer Frase
+	///Medimos la longitud de la frase y se le asigna al contador
 	Contador <- Longitud(Frase)
-	i=1
-	Vocales <- 0
+	///Mientras i sea menor a la longitud de la frase (se suma i+1 en cada vuelta) se cuentan las vocales y se suman a "Vocales"
 	Mientras i <= Contador Hacer
 		Según SubCadena(Frase,i,i) Hacer
 			'a', 'A', 'á', 'Á':
-				Vocales = Vocales+1
+				Vocales <- Vocales+1
 			'e', 'E', 'é', 'É':
 				Vocales <- Vocales+1
 			'i', 'I', 'í', 'Í':
@@ -24,5 +26,5 @@ Algoritmo ContadorDePalabras
 		i <- i+1
 	FinMientras
 	Escribir 'La frase ', Frase, ' contiene ', Vocales, ' en total.'
-	// Escribir "La frase o palabra " Frase " contiene " Contador letras
+	/// Escribir "La frase o palabra " Frase " contiene " Contador letras
 FinAlgoritmo
