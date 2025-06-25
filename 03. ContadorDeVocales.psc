@@ -9,18 +9,18 @@ Algoritmo ContadorDePalabras
 	i=1
 	Vocales <- 0
 	Mientras i <= Contador Hacer
-		Según SubCadena(Frase,i,i) Hacer
-			'a', 'A', 'á', 'Á':
+		SegÃºn SubCadena(Frase,i,i) Hacer
+			'a', 'A', 'Ã¡', 'Ã':
 				Vocales = Vocales+1
-			'e', 'E', 'é', 'É':
+			'e', 'E', 'Ã©', 'Ã‰':
 				Vocales <- Vocales+1
-			'i', 'I', 'í', 'Í':
+			'i', 'I', 'Ã­', 'Ã':
 				Vocales <- Vocales+1
-			'o', 'O', 'ó', 'Ó':
+			'o', 'O', 'Ã³', 'Ã“':
 				Vocales <- Vocales+1
-			'u', 'U', 'ú', 'Ú':
+			'u', 'U', 'Ãº', 'Ãš':
 				Vocales <- Vocales+1
-		FinSegún
+		FinSegÃºn
 		i <- i+1
 	FinMientras
 	Escribir 'La frase ', Frase, ' contiene ', Vocales, ' en total.'
